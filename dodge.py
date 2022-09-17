@@ -256,17 +256,3 @@ while True:
             align="center",
             font=("Courier", 24, "normal"),
         )
-
-    if score_b == 15:
-        level += 1
-        enemy_one.dx += 0.2
-        enemy_one.dy += 0.2
-        enemy_two.dx += 0.2
-        enemy_two.dx += 0.2
-        score_b += 2
-        pen.clear()
-        pen.write(
-            f"deaths: {score_a}  points: {score_b}  level: {level}",
-            align="center",
-            font=("Courier", 24, "normal"),
-        )
